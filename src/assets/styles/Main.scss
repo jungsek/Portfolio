@@ -9,23 +9,24 @@
     align-items: center;
     width: 100%;
     padding: 0px 15%;
-    min-height: 700px;
+    min-height: 100vh;
     background-image: url("../images/bg-dark.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
-    @supports (-webkit-touch-callout: none) {
-        /* CSS specific to iOS devices */
-        background-attachment: scroll;
-        background-size: auto 100%;
-        min-height: 100vh;
-    }
+    overflow: hidden;
+    will-change: transform;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .about-section .content {
     text-align: left;
     z-index: 2;
+    will-change: transform;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
 
     .social_icons {
         display: flex;
@@ -57,6 +58,10 @@
 
 .about-section .image-wrapper {
     z-index: 2;
+    will-change: transform;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    
     img {
         width: 150px;
         border-radius: 50%;
@@ -144,6 +149,8 @@
             display: block;
             padding-left: 0px;
             padding-right: 0px;
+            min-height: 100vh;
+            background-attachment: scroll;
         }
 
         .about-section .content {

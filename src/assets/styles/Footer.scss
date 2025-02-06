@@ -9,22 +9,22 @@ footer {
         background-image: url("../images/bg-dark.png");
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
         background-position: center;
         display: flex;
         align-items: center;
         justify-content: center;
-
-        @supports (-webkit-touch-callout: none) {
-            /* CSS specific to iOS devices */
-            background-attachment: scroll;
-            background-size: auto 100%;
-            min-height: 100vh;
-        }
+        overflow: hidden;
+        will-change: transform;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
     }
 
     .footer-content {
         padding: 50px 0;
+        will-change: transform;
+        transform: translateZ(0);
+        -webkit-transform: translateZ(0);
         
         svg {
             width: 1.1em !important;
@@ -41,4 +41,16 @@ footer {
 
 .light-mode footer .footer-parallax-section {
     background-image: url("../images/bg-light.png");
+}
+
+@media (max-width: 768px) {
+    footer {
+        .footer-parallax-section {
+            min-height: 200px;
+        }
+        
+        .footer-content {
+            padding: 30px 0;
+        }
+    }
 }

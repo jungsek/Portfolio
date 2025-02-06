@@ -60,18 +60,16 @@ form {
   background-image: url("../images/bg-dark.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2rem 0;
-  @supports (-webkit-touch-callout: none) {
-    /* CSS specific to iOS devices */
-    background-attachment: scroll;
-    background-size: auto 100%;
-    min-height: 100vh;
-}
+  overflow: hidden;
+  will-change: transform;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .light-mode .contact-parallax-section {
@@ -85,6 +83,9 @@ form {
   padding: 4rem 2rem;
   width: 100%;
   max-width: 1200px;
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   
   h1 {
     margin-bottom: 2rem;
