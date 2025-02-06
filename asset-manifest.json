@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/jungsek-portfolio/static/css/main.b3c05385.css",
+    "main.js": "/jungsek-portfolio/static/js/main.2f3cdc2b.js",
+    "static/js/453.b05d8aa5.chunk.js": "/jungsek-portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/mock01.png": "/jungsek-portfolio/static/media/mock01.dce74f29936ed657f641.png",
+    "static/media/mock04.png": "/jungsek-portfolio/static/media/mock04.ffe80ac511b3c486a8a6.png",
+    "static/media/mock07.png": "/jungsek-portfolio/static/media/mock07.7633460adcf5d22dfe21.png",
+    "static/media/mock06.png": "/jungsek-portfolio/static/media/mock06.b5a2b4ffef574fb9d9d8.png",
+    "static/media/mock10.png": "/jungsek-portfolio/static/media/mock10.f76cd6662d1b55f1a0a1.png",
+    "static/media/mock03.png": "/jungsek-portfolio/static/media/mock03.56ceba129a1080650cce.png",
+    "static/media/mock05.png": "/jungsek-portfolio/static/media/mock05.7720c2cdb491ef9bbd84.png",
+    "static/media/mock02.png": "/jungsek-portfolio/static/media/mock02.9b2a11b68442e3ba68a1.png",
+    "static/media/mock08.png": "/jungsek-portfolio/static/media/mock08.c794071c5c2b005af8a9.png",
+    "static/media/mock09.png": "/jungsek-portfolio/static/media/mock09.2efe8c4dbf7ea3f7bda0.png",
+    "static/media/bg-light.png": "/jungsek-portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/jungsek-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/avatar.png": "/jungsek-portfolio/static/media/avatar.404fd25372601aad56df.png",
+    "index.html": "/jungsek-portfolio/index.html",
+    "main.b3c05385.css.map": "/jungsek-portfolio/static/css/main.b3c05385.css.map",
+    "main.2f3cdc2b.js.map": "/jungsek-portfolio/static/js/main.2f3cdc2b.js.map",
+    "453.b05d8aa5.chunk.js.map": "/jungsek-portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3c05385.css",
+    "static/js/main.2f3cdc2b.js"
+  ]
+}
