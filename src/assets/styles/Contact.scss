@@ -66,6 +66,12 @@ form {
   align-items: center;
   justify-content: center;
   padding: 2rem 0;
+  @supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */
+    background-attachment: scroll;
+    background-size: auto 100%;
+    min-height: 100vh;
+}
 }
 
 .light-mode .contact-parallax-section {
